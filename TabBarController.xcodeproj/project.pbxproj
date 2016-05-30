@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		01AE41431CFC13E600DFF874 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AE41421CFC13E600DFF874 /* AppDelegate.swift */; };
-		01AE41451CFC13E600DFF874 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AE41441CFC13E600DFF874 /* ViewController.swift */; };
-		01AE41481CFC13E600DFF874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AE41461CFC13E600DFF874 /* Main.storyboard */; };
 		01AE414A1CFC13E600DFF874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AE41491CFC13E600DFF874 /* Assets.xcassets */; };
 		01AE414D1CFC13E600DFF874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AE414B1CFC13E600DFF874 /* LaunchScreen.storyboard */; };
+		01AE415A1CFC149A00DFF874 /* TabViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AE41581CFC149A00DFF874 /* TabViewController1.swift */; };
+		01AE415B1CFC149A00DFF874 /* TabViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01AE41591CFC149A00DFF874 /* TabViewController1.xib */; };
+		01AE415E1CFC14A700DFF874 /* TabViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AE415C1CFC14A700DFF874 /* TabViewController2.swift */; };
+		01AE415F1CFC14A700DFF874 /* TabViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01AE415D1CFC14A700DFF874 /* TabViewController2.xib */; };
+		01AE41621CFC14B200DFF874 /* TabViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AE41601CFC14B200DFF874 /* TabViewController3.swift */; };
+		01AE41631CFC14B200DFF874 /* TabViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01AE41611CFC14B200DFF874 /* TabViewController3.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01AE413F1CFC13E600DFF874 /* TabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01AE41421CFC13E600DFF874 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		01AE41441CFC13E600DFF874 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		01AE41471CFC13E600DFF874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01AE41491CFC13E600DFF874 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01AE414C1CFC13E600DFF874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01AE414E1CFC13E600DFF874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01AE41581CFC149A00DFF874 /* TabViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController1.swift; sourceTree = "<group>"; };
+		01AE41591CFC149A00DFF874 /* TabViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabViewController1.xib; sourceTree = "<group>"; };
+		01AE415C1CFC14A700DFF874 /* TabViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController2.swift; sourceTree = "<group>"; };
+		01AE415D1CFC14A700DFF874 /* TabViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabViewController2.xib; sourceTree = "<group>"; };
+		01AE41601CFC14B200DFF874 /* TabViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController3.swift; sourceTree = "<group>"; };
+		01AE41611CFC14B200DFF874 /* TabViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabViewController3.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				01AE41421CFC13E600DFF874 /* AppDelegate.swift */,
-				01AE41441CFC13E600DFF874 /* ViewController.swift */,
-				01AE41461CFC13E600DFF874 /* Main.storyboard */,
 				01AE41491CFC13E600DFF874 /* Assets.xcassets */,
 				01AE414B1CFC13E600DFF874 /* LaunchScreen.storyboard */,
 				01AE414E1CFC13E600DFF874 /* Info.plist */,
+				01AE41581CFC149A00DFF874 /* TabViewController1.swift */,
+				01AE41591CFC149A00DFF874 /* TabViewController1.xib */,
+				01AE415C1CFC14A700DFF874 /* TabViewController2.swift */,
+				01AE415D1CFC14A700DFF874 /* TabViewController2.xib */,
+				01AE41601CFC14B200DFF874 /* TabViewController3.swift */,
+				01AE41611CFC14B200DFF874 /* TabViewController3.xib */,
 			);
 			path = TabBarController;
 			sourceTree = "<group>";
@@ -123,8 +135,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				01AE414D1CFC13E600DFF874 /* LaunchScreen.storyboard in Resources */,
+				01AE415B1CFC149A00DFF874 /* TabViewController1.xib in Resources */,
 				01AE414A1CFC13E600DFF874 /* Assets.xcassets in Resources */,
-				01AE41481CFC13E600DFF874 /* Main.storyboard in Resources */,
+				01AE415F1CFC14A700DFF874 /* TabViewController2.xib in Resources */,
+				01AE41631CFC14B200DFF874 /* TabViewController3.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01AE41451CFC13E600DFF874 /* ViewController.swift in Sources */,
+				01AE41621CFC14B200DFF874 /* TabViewController3.swift in Sources */,
+				01AE415E1CFC14A700DFF874 /* TabViewController2.swift in Sources */,
+				01AE415A1CFC149A00DFF874 /* TabViewController1.swift in Sources */,
 				01AE41431CFC13E600DFF874 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +159,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		01AE41461CFC13E600DFF874 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				01AE41471CFC13E600DFF874 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		01AE414B1CFC13E600DFF874 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

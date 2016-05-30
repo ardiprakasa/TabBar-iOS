@@ -12,10 +12,36 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var tabViewController1: TabViewController1?
+    var tabViewController2: TabViewController2?
+    var tabViewController3: TabViewController3?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        self.tabViewController1 = TabViewController1()
+        self.tabViewController2 = TabViewController2()
+        self.tabViewController3 = TabViewController3()
+        
+        let tabBarController = UITabBarController()
+        
+        tabBarController.viewControllers = [tabViewController1!, tabViewController2!, tabViewController3!]
+        
+        let item1 = UITabBarItem(title: "1st Tab", image: nil, tag: 1)
+        let item2 = UITabBarItem(title: "2st Tab", image: nil, tag: 2)
+        let item3 = UITabBarItem(title: "3st Tab", image: nil, tag: 3)
+        
+        tabViewController1?.tabBarItem = item1
+        tabViewController2?.tabBarItem = item2
+        tabViewController3?.tabBarItem = item3
+        
+        self.window?.rootViewController = tabBarController
+        
+        window?.makeKeyAndVisible()
+        
         return true
     }
 
